@@ -1,0 +1,58 @@
+body {
+	margin: 0px;
+	background-color: #ee9d68;
+	background-image : url("../../images/wow.jpg");
+}
+
+@font-face {
+	font-family: "University";
+	src: url("fonts/University.otf");
+}	
+
+#main {
+	width: 55%;
+	height: 100%;
+	margin: 0px auto 0px auto;
+	background-color: #464949c4;
+	box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.8), -12px 0 8px -4px rgba(0, 0, 0, 0.8);
+}
+
+#mainTitle {
+	border-bottom-style: double;
+	border-width: thick;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: white;
+	font-family: "University";
+	font-size: 3em;
+	text-shadow: 5px 5px #000000;
+	margin: auto 0px auto 0px;
+}
+
+#mainText {
+	padding-top: 40px;
+	width: 80%;
+	margin: 0px auto 0px auto;
+	color: white;
+	font-family: "University";
+	text-shadow: 2px 2px #000000;
+	font-size: 0.8em;
+}
+
+#teamName {
+
+	text-align: center;
+	color: white;
+	font-family: "Garamond";
+	font-size: 2.5em;
+	text-shadow: 5px 5px #000000;
+	margin: auto 0px auto 0px;
+	padding-top: 1em;
+	
+}
+
+.returnLink {
+	font-size: 0.6em;
+	text-shadow: 1px 1px #000000;
+}
